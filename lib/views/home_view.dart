@@ -7,9 +7,12 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ScaffoldWrapper(
+    return ScaffoldWrapper(
         child: Center(
-      child: Text('Home View'),
+      child: Container(
+        color: Colors.amber,
+        child: const Text('Home View'),
+      ),
     ));
   }
 }

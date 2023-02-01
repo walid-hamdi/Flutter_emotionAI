@@ -1,4 +1,4 @@
-package com.appcreationsimplified.learnproject
+package com.walidhamdi.emotionai
 
 import io.flutter.embedding.android.FlutterActivity
 
